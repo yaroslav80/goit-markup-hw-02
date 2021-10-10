@@ -1,0 +1,186 @@
+/* Site general settings */
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  background-color: #ffffff;
+  color: #757575;
+}
+.list {
+  list-style: none;
+}
+.link-contact,
+.link,
+.link-address,
+.logo,
+.logo-footer {
+  text-decoration: none;
+}
+
+/* Site header */
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  color: #2196f3;
+}
+.logo .part {
+  color: #212121;
+}
+.link,
+.header .link-contact {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.link {
+  color: #212121;
+}
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
+.header .link-contact {
+  color: #757575;
+}
+.header .link-contact:hover,
+.header .link-contact:focus {
+  color: #2196f3;
+}
+
+/* Эффективные решения для вашего бизнеса */
+.solution {
+  background-color: #2f303a;
+}
+.solution-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.button {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  border: 0;
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+/* Наши ценности */
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+.features-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+/* Чем мы занимаемся */
+.section-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  color: #212121;
+}
+
+/* Наша команда */
+.section-team {
+  background-color: #f5f4fa;
+}
+.features-item {
+  background-color: #ffffff;
+}
+.features-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: #212121;
+}
+.features-text {
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* Портфолио Фильтр Работ */
+.btn {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: 0;
+  background-color: #f5f4fa;
+  color: #212121;
+}
+.btn:hover,
+.btn:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+/* Портфолио Примеры Работ */
+.features-caption {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.features-desc {
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+/* Site footer */
+.footer {
+  background-color: #2f303a;
+}
+.logo-footer {
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #2196f3;
+}
+.logo-footer .part {
+  color: #ffffff;
+}
+.footer .link-address,
+.footer .link-contact {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.footer .link-address {
+  color: #ffffff;
+}
+.footer .link-contact {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer .link-contact:hover,
+.footer .link-contact:focus {
+  color: rgba(255, 255, 255, 0.6);
+}
