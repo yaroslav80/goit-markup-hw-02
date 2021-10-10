@@ -1,4 +1,10 @@
 /* Site general settings */
+:root {
+  --primary-title-color: #212121;
+  --primary-text-color: #757575;
+  --second-title-color: #ffffff;
+  --accent-color: #2196f3;
+}
 body {
   font-family: Roboto, sans-serif;
   font-size: 14px;
@@ -24,10 +30,10 @@ body {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .logo .part {
-  color: #212121;
+  color: var(--primary-title-color);
 }
 .link,
 .header .link-contact {
@@ -39,18 +45,18 @@ body {
   letter-spacing: 0.02em;
 }
 .link {
-  color: #212121;
+  color: var(--primary-title-color);
 }
 .link:hover,
 .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .header .link-contact {
-  color: #757575;
+  color: var(--primary-text-color);
 }
 .header .link-contact:hover,
 .header .link-contact:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* Эффективные решения для вашего бизнеса */
@@ -64,7 +70,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--second-title-color);
 }
 .button {
   font-family: Roboto, sans-serif;
@@ -74,8 +80,8 @@ body {
   line-height: 1.88;
   letter-spacing: 0.06em;
   border: 0;
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--accent-color);
+  color: var(--second-title-color);
 }
 
 /* Наши ценности */
@@ -91,7 +97,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--primary-title-color);
 }
 
 /* Чем мы занимаемся */
@@ -99,7 +105,7 @@ body {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
-  color: #212121;
+  color: var(--primary-title-color);
 }
 
 /* Наша команда */
@@ -107,13 +113,13 @@ body {
   background-color: #f5f4fa;
 }
 .features-item {
-  background-color: #ffffff;
+  background-color: var(--second-title-color);
 }
 .features-subtitle {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  color: #212121;
+  color: var(--primary-title-color);
 }
 .features-text {
   font-size: 16px;
@@ -131,12 +137,12 @@ body {
   letter-spacing: 0.03em;
   border: 0;
   background-color: #f5f4fa;
-  color: #212121;
+  color: var(--primary-title-color);
 }
 .btn:hover,
 .btn:focus {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--accent-color);
+  color: var(--second-title-color);
 }
 
 /* Портфолио Примеры Работ */
@@ -145,7 +151,7 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--primary-title-color);
 }
 .features-desc {
   font-size: 16px;
@@ -161,10 +167,10 @@ body {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .logo-footer .part {
-  color: #ffffff;
+  color: var(--second-title-color);
 }
 .footer .link-address,
 .footer .link-contact {
@@ -175,7 +181,7 @@ body {
   line-height: 1.71;
 }
 .footer .link-address {
-  color: #ffffff;
+  color: var(--second-title-color);
 }
 .footer .link-contact {
   color: rgba(255, 255, 255, 0.6);
